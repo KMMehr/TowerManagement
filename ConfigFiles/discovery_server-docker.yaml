@@ -10,8 +10,11 @@ eureka:
   client:
     registerWithEureka: false
     fetchRegistry: false
+    register-with-eureka: false
+    fetch-registry: false
 logging:
   level:
     com.netflix.discovery: "ON"
     org.springframework.cloud: 'DEBUG'
-    
+  
+
