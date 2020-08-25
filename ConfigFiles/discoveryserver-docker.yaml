@@ -3,7 +3,7 @@ server:
 
 eureka:
   instance:
-    hostname: t_m_infra_discovery_server
+    hostname: eureka-server
     health-check-url-path: /actuator/health
     status-page-url-path: /actuator/info 
     preferIpAddress: false
@@ -14,4 +14,3 @@ logging:
   level:
     com.netflix.discovery: "ON"
     org.springframework.cloud: 'DEBUG'
-
