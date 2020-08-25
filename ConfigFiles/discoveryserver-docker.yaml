@@ -3,7 +3,7 @@ server:
 
 eureka:
   instance:
-    hostname: eureka-server
+    hostname: t-m-infra-discovery-server
     health-check-url-path: /actuator/health
     status-page-url-path: /actuator/info 
     preferIpAddress: false
