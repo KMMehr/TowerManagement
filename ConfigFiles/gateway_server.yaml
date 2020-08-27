@@ -1,1 +1,11 @@
-ss
+server:
+  port: 28888
+  
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:28761/eureka/
+ 
+logging:
+  level:
+    ROOT: INFO
