@@ -14,5 +14,5 @@ eureka:
       defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
 logging:
   level:
-    com.netflix.discovery: "ON"
+    com.netflix.discovery: 'ON'
     org.springframework.cloud: 'DEBUG'
