@@ -3,19 +3,19 @@ server:
   
 spring:
   rabbitmq:
-    host: t_m_rabbitmq
+    host: t-m-rabbitmq
     port: 5672
     username: guest
     password: guest
   data:
     mongodb:
       database: t_m_DB
-      host: t_m_mongo
+      host: t-m-mongo
   
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://t_m_infra_discovery_server:18761/eureka/
+      defaultZone: http://t-m-infra-discovery-server:18761/eureka/
 
 logging:
   level:
