@@ -8,6 +8,10 @@ spring:
     username: guest
     password: guest
     
+  sleuth:
+    annotation:
+      enabled: true
+    
   data:
     mongodb:
       database: t_m_DB
