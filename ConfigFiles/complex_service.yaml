@@ -10,7 +10,7 @@ spring:
     
   data:
     mongodb:
-      database: complexs
+      database: t_m_DB
       host: localhost
       
 eureka:
