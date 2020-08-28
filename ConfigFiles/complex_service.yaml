@@ -1,5 +1,5 @@
 server:
-  port: 41003
+  port: 41000
   
 spring:
   rabbitmq:
