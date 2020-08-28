@@ -1,11 +1,22 @@
 server:
   port: 31000
   
+spring:
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+  data:
+    mongodb:
+      database: planes
+      host: localhost
+  
 eureka:
   client:
     serviceUrl:
       defaultZone: http://t.m.infra.discovery-server:18761/eureka/
- 
+
 logging:
   level:
     ROOT: INFO
