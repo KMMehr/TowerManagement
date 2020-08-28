@@ -11,6 +11,10 @@ spring:
     mongodb:
       database: complexs
       host: localhost
+  sleuth:
+    annotation:
+      enabled: true
+      
 eureka:
   client:
     serviceUrl:
