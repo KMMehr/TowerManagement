@@ -9,7 +9,7 @@ spring:
     password: guest
   data:
     mongodb:
-      database: complexs
+      database: t_m_DB
       host: t.m.mongo
   
 eureka:
