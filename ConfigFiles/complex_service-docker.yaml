@@ -10,12 +10,12 @@ spring:
   data:
     mongodb:
       database: t_m_DB
-      host: t.m.mongo
+      host: t_m_mongo
   
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://t_m_infra_discovery-server:18761/eureka/
+      defaultZone: http://t_m_infra_discovery_server:18761/eureka/
 
 logging:
   level:
