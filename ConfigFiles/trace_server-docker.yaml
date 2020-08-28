@@ -4,10 +4,10 @@ server:
 spring:
   rabbitmq:
     port: 5672
-    host: rabbitmq
+    host: t.m.rabbitmq
   datasource:
     schema: classpath:/mysql.sql
-    url: jdbc:mysql://mysql:3306/zipkin?autoReconnect=true
+    url: jdbc:mysql://t.m.mysql:3306/zipkin?autoReconnect=true
     driver-class-name: com.mysql.cj.jdbc.Driver
     username: root
     password: root
