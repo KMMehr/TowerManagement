@@ -10,15 +10,4 @@ logging:
   level:
     ROOT: INFO
     
-spring:
-  cloud:
-    gateway:
-      routes:
-      - id: set_request_host_header_route
-        uri: http://localhost:28888/headers
-        predicates:
-        - Path=/headers
-        filters:
-        - name: SetRequestHost
-          args:
-            host: localhost:41000
+
