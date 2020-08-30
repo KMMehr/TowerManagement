@@ -9,5 +9,5 @@ eureka:
 logging:
   level:
     ROOT: INFO
-    
+
 
