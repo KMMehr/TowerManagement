@@ -13,3 +13,5 @@ logging:
 Biz:
  ComplexService:
              URI: http://t-m-biz-complex-service:31000
+ PersonService:
+             URI: http://t-m-biz-person-service:31100
