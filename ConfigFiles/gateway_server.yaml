@@ -12,3 +12,7 @@ logging:
 Biz:
  ComplexService:
              URI: http://localhost:41000
+ PersonService:
+             URI: http://localhost:41100
+             
+             
