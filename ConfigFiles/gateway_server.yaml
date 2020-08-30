@@ -9,5 +9,6 @@ eureka:
 logging:
   level:
     ROOT: INFO
-
-
+Biz:
+ ComplexService:
+             URI: http://localhost:41000
