@@ -1,1 +1,22 @@
-fghfg
+server:
+  port: 31100
+  
+spring:
+  rabbitmq:
+    host: t-m-rabbitmq
+    port: 5672
+    username: guest
+    password: guest
+  data:
+    mongodb:
+      database: t_m_DB
+      host: t-m-mongo
+  
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://t-m-infra-discovery-server:18761/eureka/
+
+logging:
+  level:
+    ROOT: INFO
