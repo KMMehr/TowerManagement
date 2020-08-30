@@ -9,3 +9,7 @@ eureka:
 logging:
   level:
     ROOT: INFO
+
+Biz:
+ ComplexService:
+             URI: http://t-m-biz-complex-service:31000
