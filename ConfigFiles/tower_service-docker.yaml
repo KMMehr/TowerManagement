@@ -1,1 +1,28 @@
-fhhgf
+server:
+  port: 41200
+  
+spring:
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+    
+  sleuth:
+    annotation:
+      enabled: true
+    
+  data:
+    mongodb:
+      database: t_m_DB
+      host: localhost
+      
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:28761/eureka/
+ 
+logging:
+  level:
+    ROOT: WARN
+    
