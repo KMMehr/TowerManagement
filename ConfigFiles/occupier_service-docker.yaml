@@ -17,6 +17,12 @@ eureka:
     serviceUrl:
       defaultZone: http://t-m-infra-discovery-server:18761/eureka/
 
+person:
+  service: PERSON
+  oauth:
+    client_id: 442cf4015509eda9c03e5ca3aceef752
+    client_secret: 4f7ec648a48b9d3fa239b497f7b6b4d8019697bd
+
 logging:
   level:
     ROOT: INFO
