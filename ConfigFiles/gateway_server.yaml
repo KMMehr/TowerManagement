@@ -14,5 +14,10 @@ Biz:
              URI: http://localhost:41000
  PersonService:
              URI: http://localhost:41100
+ TowerService:
+             URI: http://localhost:41200
+ OccupierService:
+             URI: http://localhost:41300
+
              
              
