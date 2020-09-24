@@ -15,3 +15,7 @@ Biz:
              URI: http://t-m-biz-complex-service:31000
  PersonService:
              URI: http://t-m-biz-person-service:31100
+ TowerService:
+             URI: http://t-m-biz-tower-service:31200
+ OccupierService:
+             URI: http://t-m-biz-occupier-service:31300
